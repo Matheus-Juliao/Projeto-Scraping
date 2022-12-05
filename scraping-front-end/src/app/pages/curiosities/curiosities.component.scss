@@ -1,0 +1,72 @@
+
+:host {
+    .img-card {
+        display: flex;
+        margin: 10px;
+    }
+
+    .img-card-curiosities {
+        cursor: pointer;
+        margin: 1%;
+        width: calc(100% / 5.55);
+    }
+    
+    .btn {
+        background-color: #003A61;
+        color: white;
+        padding: 15px;
+        border-radius: 12px;
+        margin: auto auto;
+        min-width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .img-question {
+        margin: auto;
+        display: block;
+        width: 400px;
+    }
+
+    .pdf {
+        cursor: pointer;
+        width: 40px;
+    }
+
+    .divPdf {
+        text-align: center;
+    }
+
+    .table {
+        margin-bottom: 30px !important;
+        max-width: 500px;
+        margin: auto auto;
+    }
+
+    p {
+        text-align: center;
+        background-color: #003A61;
+        color: white;
+        font-size: 20px;
+        margin: 0 25px 10px 25px;
+        border-radius: 10px;
+        padding: 2px;
+    }
+
+    @media screen and (max-width: 900px) {
+        .img-card {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .img-card-curiosities {
+            flex: 1 1 150px;
+            max-height: 225px;
+            max-width: 300px;
+            width: unset;
+        }
+
+        .img-question {
+            max-width: 320px;
+        }
+    }
+}

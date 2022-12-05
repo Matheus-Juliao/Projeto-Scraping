@@ -1,0 +1,131 @@
+:host {
+    .background-table {
+        //margin-bottom: 60px;
+        width: 100%;
+        // position: absolute;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 500px;
+        margin: auto auto;
+    }
+
+    .period {
+        width: 100%;
+        max-width: 230px;
+    }
+
+    .select {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .form-control-sm{
+        margin-left: 10px !important;
+    }
+    
+    .btn {
+        background-color: #003A61;
+        // opacity: unset !important;
+        color: white;
+        padding: 15px;
+        border-radius: 12px;
+        margin-bottom: 10px;
+    }
+
+    .selectFilter {
+        background-color: #003A61;
+        color: white;
+        border-right: solid 10px;
+        border-color: #003A61;
+        margin-right: 10px;
+    }
+
+    .csv, .pdf {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .img-curiosities {
+        cursor: pointer;
+        float: right;
+        position: relative;
+        bottom: 120px;
+        margin-right: 10px;
+    }
+
+    .previousPeriod {
+        margin: 15px;
+    }
+
+    .search {
+        width: 90px;
+    }
+
+    #title {
+        display: flex !important;
+    }
+
+    .filterPrint {
+        margin-top: -33px;
+        text-align: left;
+        max-width: 500px;
+        padding-left: 12px;
+    }
+
+    .config {
+        text-align: -webkit-center;
+    }
+
+    .divTable {
+        margin: auto auto !important;
+        max-width: 500px;
+    }
+
+    .table {
+        margin-bottom: 30px !important;
+        width: 500px;
+        margin: auto auto;
+    }
+
+    .back {
+        max-width: 190px;
+    }
+
+    label {
+        display: block;
+        color: #003A61;
+        font-weight: 400;
+        font-size: 24px;
+
+    }
+
+    @media screen and (max-width: 467px) {
+        .period {
+            margin: unset !important;
+            margin-bottom: 6px !important;   
+        }
+
+        select, label {
+            font-size: 16px !important;
+        }
+
+        .csv, .pdf {
+            width: 50px;
+        }
+    }
+
+    @media screen and (max-width: 730px) {
+        .img-curiosities {
+            cursor: pointer;
+            float: unset;
+            position: unset;
+            bottom: unset;
+            margin-right: unset;
+            display: block;
+            margin: auto auto;
+        }
+    }
+}
+

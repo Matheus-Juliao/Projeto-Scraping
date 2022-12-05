@@ -1,0 +1,4 @@
+/scraping-front-end/node_modules
+
+/scraping-back-end/node_modules
+/scraping-back-end/connection_db.js

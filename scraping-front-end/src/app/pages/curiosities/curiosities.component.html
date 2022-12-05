@@ -1,0 +1,90 @@
+<app-toast></app-toast>
+<app-loading *ngIf="showLoanding" ></app-loading>
+
+<div>
+    <app-header></app-header>
+
+    <div class="img-card">
+        <img *ngIf="showMoreExpensive" (click)="moreExpensive()" class="img-card-curiosities" src="assets/images/mostExpensive.png" alt="Botão para visualisar carro mais caro no banco de dados">
+        <img *ngIf="showCheapest" (click)="cheapest()" class="img-card-curiosities" src="assets/images/cheapest.png" alt="Botão para visualisar carro mais barato no banco de dados">         
+        <img *ngIf="showLessPowerful" (click)="lessPowerful()" class="img-card-curiosities" src="assets/images/lessPowerful.png" alt="Botão para visualisar carro menos potente">         
+        <img *ngIf="showMoreEconomical" (click)="moreEconomical()" class="img-card-curiosities"  src="assets/images/moreEconomical.png" alt="Botão para visualisar carro mais econômico">         
+        <img *ngIf="showLessEconomical" (click)="lessEconomical()" class="img-card-curiosities"  src="assets/images/lessEconomical.png" alt="Botão para visualisar carro mais gastão">         
+    </div>
+
+ 
+    <img class="img-question" *ngIf="showImgQuestion" src="assets/images/question.png" alt="Imagem selecione uma curiosidade para ver o resultado">  
+
+    <p *ngIf="pMoreExpensive">Esse veículo é o mais caro cadastrado no sistema através da raspagem de dados.</p>
+    <p *ngIf="pCheapest">Esse veículo é o mais barato cadastrado no sistema através da raspagem de dados.</p>
+    <p *ngIf="pLessPowerful">Esse é uns dos veículos menos potentes encontrado na tabela fipe com 32 cavalos de potência.</p>
+    <p *ngIf="pMoreEconomical">Esse é uns dos veículos mais econômicos encontrado na tabela fipe. Seu sistema hibrido garante uma média de 42,6 Km/l na cidade.</p>
+    <p *ngIf="pLessEconomical" >Esse é uns dos veículos mais gastões encontrado na tabela fipe com uma média de 2,3 Km/l na cidade.</p>
+
+    <div class="divPdf" *ngIf="pMoreExpensive" (click)="print('moreExpensive')">
+        <img class="pdf" src="assets/images/pdf.png" alt="ícone pdf" title="pdf">
+    </div>
+
+    <div class="divPdf" *ngIf="pCheapest" (click)="print('cheapest')">
+        <img class="pdf" src="assets/images/pdf.png" alt="ícone pdf" title="pdf">
+    </div>
+
+    <div class="divPdf" *ngIf="pLessPowerful" (click)="print('lessPowerful')">
+        <img class="pdf" src="assets/images/pdf.png" alt="ícone pdf" title="pdf">
+    </div>
+
+    <div class="divPdf" *ngIf="pMoreEconomical" (click)="print('moreEconomical')">
+        <img class="pdf" src="assets/images/pdf.png" alt="ícone pdf" title="pdf">
+    </div>
+
+    <div class="divPdf" *ngIf="pLessEconomical" (click)="print('lessEconomical')">
+        <img class="pdf" src="assets/images/pdf.png" alt="ícone pdf" title="pdf">
+    </div>
+
+    <div *ngIf="showTable" class="m-2 divTable">
+        <table class="table caption-top" aria-describedby="table" *ngFor="let item of response; let i = index">
+                <tbody>
+                    <tr>
+                        <th scope="row">Mês de referência</th>
+                        <td>{{ response[i].reference_month }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Código Fipe</th>
+                        <td>{{ response[i].fipe_code }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Marca</th>
+                        <td>{{ response[i].brand }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Modelo</th>
+                        <td>{{ response[i].model }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Ano modelo</th>
+                        <td>{{ response[i].model_year }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Autenticação</th>
+                        <td>{{ response[i].authentication }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Data da consulta</th>
+                        <td>{{ response[i].consultationDate }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Preço médio</th>
+                        <td>{{ response[i].average_price }}</td>
+                    </tr>
+                </tbody>
+        </table> 
+    
+        <div *ngIf="showTable">
+            <div class="back d-grid gap-2 col-6 mx-auto mb-3">
+                <button class="btn" type="button" (click)="back()">VOLTAR</button>
+            </div>
+        </div>
+    <div>
+
+
+</div>
