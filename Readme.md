@@ -108,9 +108,9 @@ confecção de um dashboard, exportação de arquivos .CSV e .PFF.
 </p>
 
 
-## Professor
+## 👨🏻‍💻Professor
 
-🔰[Alciomar Holanda]()
+🔰[Alciomar Holanda](https://github.com/alciomarhollanda)
 
 ## 👨‍🎓Alunos
 
