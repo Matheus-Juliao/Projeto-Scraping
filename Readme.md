@@ -65,15 +65,48 @@ confecção de um dashboard, exportação de arquivos .CSV e .PFF.
 
 # Funcionamente do Sistema
 
-<img src=""/>
-<img src=""/>
-<img src=""/>
+<p align="center">
+  <img alt="License" src="https://github.com/Matheus-Juliao/Projeto-Scraping/blob/master/imagens/gif_sistema_1.gif?raw=true">
+</p>
+
+<p align="center">
+  <img alt="License" src="https://github.com/Matheus-Juliao/Projeto-Scraping/blob/master/imagens/gif_curiosidades.gif?raw=true">
+</p>
+
 
 # Dashboard no Power BI
 
+<p align="center">
+  <img alt="License" src="https://github.com/Matheus-Juliao/Projeto-Scraping/blob/master/imagens/gif_dashboard.gif?raw=true">
+</p>
+
 # Eportando para PDF
 
+<p align="center">
+  <img alt="License" src="https://github.com/Matheus-Juliao/Projeto-Scraping/blob/master/imagens/gif_pdf.gif?raw=true">
+</p>
+
 # Exportando para CSV
+
+<p align="center">
+  <img alt="export_csv" src="https://github.com/Matheus-Juliao/Projeto-Scraping/blob/master/imagens/gif_csv.gif?raw=true">
+</p>
+
+# Banco de dados
+
+<p align="center">
+  <img alt="br-modelo" src="https://github.com/Matheus-Juliao/Projeto-Scraping/blob/master/imagens/gif_br_modelo.gif?raw=true">
+</p>
+
+<p align="center">
+  <img alt="modelo_logico" src="https://github.com/Matheus-Juliao/Projeto-Scraping/blob/master/imagens/gif_modelo_l%C3%B3gico.gif?raw=true">
+</p>
+
+
+<p align="database">
+  <img alt="License" src="https://github.com/Matheus-Juliao/Projeto-Scraping/blob/master/imagens/gif_banco.gif?raw=true">
+</p>
+
 
 ## Professor
 
