@@ -1,17 +1,17 @@
 # 💻Projeto Scraping 
 
-## Faculdade Adventista de São Paulo
-## Curso de Sistemas de Informação
+## Faculdade Adventista de São Paulo 
+### Curso de Sistemas de Informação
 
 # 📝Descrição e Objetivo 
 
-Este projeto tem por finalidade coletar dados do site oficial da tabela Fipe por meio do método de "Scraping" <br>
-e armazená-los em nosso banco de dados MySQL, fazendo a utilização de recursos SQL aprendidos em aula, tais como: <br>
-stored procedures, Stored Functions, Triggers e Views; Foram dados deasafios para o uso desses dados, são eles: <br>
+Este projeto tem por finalidade coletar dados do site oficial da tabela Fipe por meio do método de "Scraping"
+e armazená-los em nosso banco de dados MySQL, fazendo a utilização de recursos SQL aprendidos em aula, tais como:
+stored procedures, Stored Functions, Triggers e Views; Foram dados deasafios para o uso desses dados, são eles:
 confecção de um dashboard, exportação de arquivos .CSV e .PFF.
 
 
-# Execução local do programa
+# 👨‍💻Execução local do programa
 
 **Pré requistos:**
 
@@ -59,7 +59,7 @@ confecção de um dashboard, exportação de arquivos .CSV e .PFF.
 
 🔹[Figma](https://www.figma.com/)
 
-## **Figma**
+## 👁‍🗨**Figma**
 
 [Click here to see!](https://www.figma.com/file/7IqtJaBB5YGEjjHahMXCeD/Untitled?node-id=0%3A1&t=RH0CrAahJ82VkRCx-1)
 
@@ -79,13 +79,13 @@ confecção de um dashboard, exportação de arquivos .CSV e .PFF.
 
 🔰[Alciomar Holanda]()
 
-## Alunos
+## 👨‍🎓Alunos
 
-🔰[Matheus Julião](https://github.com/Matheus-Juliao)
+🔸[Matheus Julião](https://github.com/Matheus-Juliao)
 
-🔰[Adriano Martins](https://github.com/AdrianoPinheiro86)
+🔸[Adriano Martins](https://github.com/AdrianoPinheiro86)
 
-🔰[Jackson Freitas](https://github.com/jacksonMarcelinoFreitas)
+🔸[Jackson Freitas](https://github.com/jacksonMarcelinoFreitas)
 
 
 
